@@ -64,14 +64,14 @@
 
 
                 <li class="side-nav-item">
-                    <a href="<c:out value="/MyCourse.jsp"/>" class="side-nav-link">
+                    <a href="<c:out value="./MyCourse.jsp"/>" class="side-nav-link">
                         <i class="uil-book-reader"></i>
                         <span> My Courses </span>
                     </a>
                 </li>
 
                 <li class="side-nav-item">
-                    <a href="<c:out value="/AddCourse.jsp"/>" class="side-nav-link">
+                    <a href="<c:out value="./AddCourse.jsp"/>" class="side-nav-link">
                         <i class=" uil-parcel"></i>
                         <span>  Courses </span>
                     </a>
@@ -80,7 +80,7 @@
 
 
                 <li class="side-nav-item">
-                    <a href="<c:out value="profile-student.jsp"/>" class="side-nav-link">
+                    <a href="<c:out value="./profile-student.jsp"/>" class="side-nav-link">
                         <i class=" uil-user"></i>
                         <span> My account</span>
                     </a>
@@ -148,7 +148,7 @@
                             </a>
 
                             <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <a href="<c:url value="../index.jsp"/>" class="dropdown-item notify-item">
                                 <i class="mdi mdi-logout me-1"></i>
                                 <span>Logout</span>
                             </a>
@@ -222,7 +222,7 @@
                                     </span>
                                 </p>
                                 <div style="display: flex; justify-content: space-between;">
-                                    <a  href="<c:out value="/"/>" type="button" class="btn btn-success" style="min-width: 110px;">Exam</a>
+                                    <a  href="<c:out value="./practise.jsp"/>" type="button" class="btn btn-success" style="min-width: 110px;">Exam</a>
                                     <button type="button" class="btn btn-secondary" style="min-width: 110px;">Review</button>
                                 </div>
                             </div> <!-- end card-body-->

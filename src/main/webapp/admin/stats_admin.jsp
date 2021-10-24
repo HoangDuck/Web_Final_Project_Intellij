@@ -32,7 +32,7 @@
     <div class="leftside-menu">
 
         <!-- LOGO -->
-        <a href="index.html" class="logo text-center logo-light">
+        <a href="<c:url value="../index.jsp"/>" class="logo text-center logo-light">
                     <span class="logo-lg">
                         <img src="<c:url value = "../assets/images/logo.png"/>" alt="" height="16">
                     </span>
@@ -42,7 +42,7 @@
         </a>
 
         <!-- LOGO -->
-        <a href="index.html" class="logo text-center logo-dark">
+        <a href="<c:url value="../index.jsp"/>" class="logo text-center logo-dark">
                     <span class="logo-lg">
 
                         <img src="<c:url value = "../assets/images/logo-dark.png"/>" alt="" height="16">
@@ -58,8 +58,8 @@
             <ul class="side-nav">
 
                 <li class="side-nav-item menuitem-active">
-                    <a href="<c:url value = "#"/>" class="side-nav-link">
-<%--                <a href="<c:url value = "apps-calendar.jsp"/>" class="side-nav-link">--%>
+                    <a href="<c:url value = "./stats_admin.jsp"/>" class="side-nav-link">
+                        <%--                <a href="<c:url value = "apps-calendar.jsp"/>" class="side-nav-link">--%>
                         <i class="uil-graph-bar"></i>
                         <span> Stats </span>
                     </a>
@@ -79,7 +79,7 @@
                             </li>
                             <li>
                                 <a href="<c:url value = "#"/>">Users</a>
-<%--                            <a href="<c:url value = "apps-ecommerce-products-details.jsp"/>">Users</a>--%>
+                                <%--                            <a href="<c:url value = "apps-ecommerce-products-details.jsp"/>">Users</a>--%>
                             </li>
                         </ul>
                     </div>
@@ -152,7 +152,7 @@
 
 
                             <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <a href="<c:url value="../index.jsp"/>" class="dropdown-item notify-item">
                                 <i class="mdi mdi-logout me-1"></i>
                                 <span>Logout</span>
                             </a>

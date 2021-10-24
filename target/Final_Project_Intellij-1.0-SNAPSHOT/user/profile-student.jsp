@@ -53,7 +53,7 @@
             <!--- Sidemenu -->
             <ul class="side-nav">
                 <li class="side-nav-item">
-                    <a href="<c:url value = "AddCourse.jsp"/>" class="side-nav-link">
+                    <a href="<c:url value = "MyCourse.jsp"/>" class="side-nav-link">
                         <i class="uil-book-reader"></i>
                         <span> My Courses </span>
                     </a>
@@ -126,7 +126,7 @@
                             </a>
 
                             <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <a href="<c:url value="../index.jsp"/>" class="dropdown-item notify-item">
                                 <i class="mdi mdi-logout me-1"></i>
                                 <span>Logout</span>
                             </a>
@@ -186,7 +186,7 @@
 
                                 <div class="mb-3">
                                     <label class="form-label"  for="validationCustom01">Name</label>
-                                    <input type="text" class="form-control" placeholder="Họ và tên" value="Tính đẹp trai" required>
+                                    <input type="text" class="form-control" placeholder="Họ và tên" value="Bùi Văn Tính" required>
                                     <div class="valid-feedback">
                                         Looks good!
                                     </div>
