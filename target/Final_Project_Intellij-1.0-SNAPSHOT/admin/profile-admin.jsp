@@ -204,7 +204,7 @@
 
                                 <div class="mb-3">
                                     <label class="form-label"  for="validationCustom01">Name</label>
-                                    <input type="text" class="form-control" placeholder="Họ và tên" value="Bùi Văn Tính" required>
+                                    <input type="text" class="form-control" placeholder="Họ và tên" value="Tính đẹp trai" required>
                                     <div class="valid-feedback">
                                         Looks good!
                                     </div>

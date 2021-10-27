@@ -59,7 +59,7 @@
 
                 <li class="side-nav-item menuitem-active">
                     <a href="<c:url value = "./stats_admin.jsp"/>" class="side-nav-link">
-<%--                <a href="<c:url value = "apps-calendar.jsp"/>" class="side-nav-link">--%>
+                        <%--                <a href="<c:url value = "apps-calendar.jsp"/>" class="side-nav-link">--%>
                         <i class="uil-graph-bar"></i>
                         <span> Stats </span>
                     </a>
@@ -79,7 +79,7 @@
                             </li>
                             <li>
                                 <a href="<c:url value = "#"/>">Users</a>
-<%--                            <a href="<c:url value = "apps-ecommerce-products-details.jsp"/>">Users</a>--%>
+                                <%--                            <a href="<c:url value = "apps-ecommerce-products-details.jsp"/>">Users</a>--%>
                             </li>
                         </ul>
                     </div>

@@ -9,7 +9,7 @@
         <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="UIFinalProject.war">
+    <root id="archive" name="Final_Project_Intellij-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="Final_Project_Intellij:war exploded" />
     </root>
   </artifact>
