@@ -50,7 +50,7 @@
                         <a class="nav-link" href="#review">Review</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-btn" href="<c:url value = "../login.jsp"/>">Sign In</a>
+                        <a class="nav-link nav-btn" href="<c:url value = "login.jsp"/>">Sign In</a>
                     </li>
                 </ul>
             </div>
@@ -70,7 +70,7 @@
                     <h6>Are you ready to Learn?</h6>
                     <h1>Learn With fun <br> on <span>any schedule</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
-                    <a class="get-btn btn-get" href="<c:url value = "../login.jsp"/>">Get Started</a>
+                    <a class="get-btn btn-get" href="<c:url value = "login.jsp"/>">Get Started</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 ml-auto">
