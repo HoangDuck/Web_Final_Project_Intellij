@@ -167,27 +167,27 @@
 
 
         <div class="row">
-          <c:forEach var="item" items="${items.questions}">
+          <c:forEach var="item" items="${requestScope.list}">
             <div class="col-12">
               <div class="card">
                 <div class="card-body">
-                  <h4>Câu ${questionno}</h4><!--dat so thu tu cau o day-->
-                  <p class="fw-bold">${questionname}</p>
+                  <h4>Câu ${item.questionNo}</h4><!--dat so thu tu cau o day-->
+                  <p class="fw-bold">${item.questionName}</p>
                   <div class="form-check mb-2">
-                    <input type="radio" name="cau1" class="form-check-input">
-                    <label class="form-check-label">${result_a}</label><!--Dap an cau a-->
+                    <input type="radio" name="${item.questionNo}" class="form-check-input">
+                    <label class="form-check-label">${item.resultA}</label><!--Dap an cau a-->
                   </div>
                   <div class="form-check mb-2">
-                    <input type="radio" name="cau2" class="form-check-input">
-                    <label class="form-check-label">${result_b}</label><!--Dap an cau b-->
+                    <input type="radio" name="${item.questionNo}" class="form-check-input">
+                    <label class="form-check-label">${item.resultB}</label><!--Dap an cau b-->
                   </div>
                   <div class="form-check mb-2">
-                    <input type="radio" name="cau3" class="form-check-input">
-                    <label class="form-check-label" >${result_c}</label><!--Dap an cau c-->
+                    <input type="radio" name="${item.questionNo}" class="form-check-input">
+                    <label class="form-check-label" >${item.resultC}</label><!--Dap an cau c-->
                   </div>
                   <div class="form-check mb-2">
-                    <input type="radio" name="cau4" class="form-check-input">
-                    <label class="form-check-label" >${result_d}</label><!--Dap an cau d-->
+                    <input type="radio" name="${item.questionNo}" class="form-check-input">
+                    <label class="form-check-label" >${item.resultD}</label><!--Dap an cau d-->
                   </div>
                 </div> <!-- end card body-->
               </div> <!-- end card -->

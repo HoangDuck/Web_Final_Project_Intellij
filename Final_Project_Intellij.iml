@@ -20,7 +20,7 @@
         <setting name="validation-enabled" value="true" />
         <datasource-mapping>
           <factory-entry name="Final_Project_Intellij" />
-          <factory-entry name="default" />
+          <factory-entry name="default" value="56b32ad3-e30e-4faa-b0c0-e413d4a61d8a" />
         </datasource-mapping>
         <naming-strategy-map />
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />

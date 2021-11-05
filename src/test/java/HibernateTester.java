@@ -1,4 +1,7 @@
 import entity.Account;
+import entity.Course;
+import entity.Exam;
+import entity.Question;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
@@ -11,16 +14,33 @@ import java.util.List;
 public class HibernateTester {
 //    @Test
     public static void main(String[] args) {
+        /*Session session;
         try{
-            Session session = HibernateUtil.getSessionFactory().openSession();
-            Query<Account> query = session.createQuery("FROM Account");
-            List<Account> cats = query.list();
-            cats.forEach(c -> System.out.println(c.getId()));
-
+            session = HibernateUtil.getSessionFactory().openSession();
+            Query<Question> query=session.createQuery("FROM Question ");
+            List<Question> list=query.getResultList();
+            list.forEach(c->System.out.println(c.getId()));
+            session.close();
+            //session.close();
         }
         catch (HibernateException e) {
-            System.out.print("Loi");
+            System.out.print("Loi"+e.toString());
+        }finally {
+
+        }*/
+        Session session = HibernateUtil.getSessionFactory().openSession();
+
+        try{
+            Query<Question> query = session.createQuery("FROM Question ");
+            List<Question> list = query.getResultList();
         }
+        catch (Exception e){
+            System.out.println("Loi");
+        }
+        finally {
+            session.close();
+        }
+
     }
 
 
