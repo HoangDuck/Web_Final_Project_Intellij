@@ -56,6 +56,12 @@ public class QuestionService implements IQuestionService {
     }
 
     @Override
+    public List<Question> getListQuestionByExamID(Integer id) {
+        List<Question> list=questionDAO.findAllQuestionsByExamID(id);
+        return list;
+    }
+
+    @Override
     public String importExcelXLSX(String addressFile, QuestionDTO questionDTO){
         FileInputStream inp;
         String msg = null;
